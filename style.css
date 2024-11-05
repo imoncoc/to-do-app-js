@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', 'san-serif';
+    font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
 }
 
@@ -70,6 +70,7 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+   
 }
 
 ul li::before {
@@ -85,16 +86,16 @@ ul li::before {
     left: 8px;
 }
 
-ul li.checked{
+ul li.checked {
     color: #555;
     text-decoration: line-through;
 }
 
-ul li.checked::before{
+ul li.checked::before {
     background-image: url('./images/checked.png');
 }
 
-ul li span{
+ul li span {
     position: absolute;
     right: 0;
     top: 5px;
@@ -107,6 +108,10 @@ ul li span{
     border-radius: 50%;
 }
 
-ul li span:hover{
+ul li span:hover {
     background: #edeef0;
+}
+
+.edit-span {
+    right: 50px;
 }
